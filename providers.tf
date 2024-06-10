@@ -23,4 +23,5 @@ provider "google" {
 variable "google_credentials" {
     description = "Google Cloud credentials in JSON format"
     type = string
+    default = ""
 }
