@@ -19,3 +19,8 @@ provider "google" {
     region = "us-west1"
     zone = "us-west1-a"
 }
+
+variable "google_credentials" {
+    description = "Google Cloud credentials in JSON format"
+    type = string
+}
