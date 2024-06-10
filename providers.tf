@@ -14,7 +14,8 @@ terraform {
 }
 
 provider "google" {
-  project = "terraform-training-425614"
-  region  = "us-west1"
-  zone    = "us-west1-a"
+    credentials = var.google_credentials
+    project = "terraform-training-425614"
+    region = "us-west1"
+    zone = "us-west1-a"
 }
