@@ -1,4 +1,3 @@
-
 provider "google" {
   project = "terraform-training-425614"
   region  = "us-west1"
